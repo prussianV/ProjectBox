@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salvar armario</title>
+
+</head>
+
+<body>
+    <h1>Preencha as informações para salvar seu armario</h1>
+    <input type="text" placeholder="rm" id="rmCad">
+    <input type="text" placeholder="nome" id="nomeCad">
+    <select id="turmaCad">
+        <Option value="1Min">1Min</Option>
+        <Option value="2Min">2Min</Option>
+        <Option value="3Min">3Min</Option>
+        <Option value="1Mad">1Mad</Option>
+        <Option value="2Mad">2Mad</Option>
+        <Option value="3Mad">3Mad</Option>
+        <Option value="1Mam">1Mam</Option>
+        <Option value="2Mam">2Mam</Option>
+        <Option value="3Mam">3Mam</Option>
+        <Option value="1Ds">1Ds</Option>
+        <Option value="2Ds">2Ds</Option>
+        <Option value="3Ds">3Ds</Option>
+        <Option value="1Adm">1Adm</Option>
+        <Option value="2Adm">2Adm</Option>
+        <Option value="3Adm">3Adm</Option>
+        <Option value="1Far">1Far</Option>
+        <Option value="2Far">2Far</Option>
+        <Option value="3Far">3Far</Option>
+    </select>
+    <input type="email" placeholder="email-institucional" id="emailCad">
+    <select id="tamanhoCad">
+        <Option value="P">P</Option>
+        <Option value="G">G</Option>
+    </select>
+    <p id="resposta">Armario Escolhido:</p>
+
+    <button onclick="Enviar()">Enviar</button><br><br>
+
+    <a href="armariosAluno.php">Voltar</a>
+
+</body>
+<script src="js/scriptReservar.js"></script>
+<script src="js/jquery-3.7.1.min.js"></script>
+
+</html>

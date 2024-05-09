@@ -1,0 +1,22 @@
+Sistema gerenciador de armarios Etec de itanhaém:
+
+Js
+Mysql
+Php
+
+Usuarios:
+
+Adm (Pessoas da secretaria):
+Pode manipular os armarios dos dos alunos(Defini-los como reservados ou ocupados)
+Tem acesso a Rota de adm que tem acesso a: Lista dos alunos com os armarios(turma), data do pagamento, validade, comprovante de pagamento, rm do aluno
+
+
+Comum (Alunos) (Não precisa de conta):
+
+pode reservar somente 1 armario e terá que passar as seguintes informações para reservar:
+
+Rm
+Nome
+Email
+Turma
+
